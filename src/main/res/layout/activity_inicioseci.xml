@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".inicioseci">
+
+    <EditText
+        android:id="@+id/Correo"
+        android:layout_width="357dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="27dp"
+        android:ems="10"
+        android:hint="Correo Electronico:"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/contra"
+        android:layout_width="357dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="27dp"
+        android:ems="10"
+        android:hint="Contraseña:"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_iniciar"
+        android:layout_width="351dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="292dp"
+        android:text="Iniciar Sesión"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
